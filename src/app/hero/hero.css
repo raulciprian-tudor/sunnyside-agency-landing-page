@@ -1,0 +1,8 @@
+.hero-container {
+  background-image: url('/images/desktop/image-header.jpg');
+  background-size: cover;
+  background-position: center;
+
+  min-height: 90vh;
+  width: 100vw;
+}
