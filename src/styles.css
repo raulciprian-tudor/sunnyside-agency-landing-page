@@ -1,3 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import 'tailwindcss';
+
+@theme {
+  /* Primary */
+  --color-red-400: hsl(7 99% 70%);
+  --color-yellow-500: hsl(51 100% 49%);
+  --color-green-800: hsl(167 40% 24%);
+  --color-blue-800: hsl(198 62% 26%);
+  --color-green-500: hsl(167 34% 41%);
+
+  /* Neutral */
+  --color-grey-950: hsl(212 27% 19%);
+  --color-grey-600: hsl(213 9% 39%);
+  --color-grey-550: hsl(232 10% 55%);
+  --color-grey-400: hsl(210 4% 67%);
+  --color-white: hsl(0 100% 100%);
+
+  /* Fonts */
+  --font-barlow: 'Barlow', sans-serif;
+  --font-fraunces: 'Fraunces', serif;
+
+  /* Body copy */
+  --text-base: 18px;
+}
+
+body {
+  font-family: var(--font-barlow);
+  font-weight: 600;
+  font-size: var(--text-base);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-fraunces);
+}
